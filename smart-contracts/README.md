@@ -1,4 +1,4 @@
-# How to Deisgn a Smart Contract
+# How to Design a Smart Contract
 
 ## 1. Problem Statement
 
