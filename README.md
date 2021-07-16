@@ -1,4 +1,4 @@
-# Blockchain
+# Blockchain DAPPS
 Introduction to Blockchain Repo
 
 ## 1. Smart Contract Examples
