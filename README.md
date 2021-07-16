@@ -6,5 +6,7 @@ Introduction to Blockchain Repo
 Main focus in on implementing building blocks of Solidity to create a ballot smart contract
 
 
-## 2. Inbox Seimple Messaging System on Rinkeby Testnet
+## 2. Inbox Simple Messaging System on Rinkeby Testnet
+
+## 3. Simple Lottery DAPP with React Front End
 
