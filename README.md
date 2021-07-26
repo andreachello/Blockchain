@@ -14,7 +14,7 @@ Simple messaging system designed towards the application of testnet driven apps
 
 Simple lottery system in which each player can enter into the lottery with a any amount of ether and this ether will pooled into the contract. Once the contract owner decides it is time to pick a winner, that will receive the total pooled amount, a pseudo-random function is called to select the winner.
 
-## 4. Decentralized Kickstarter with React.js, and Next.js
+## 4. Decentralized Kickstarter with React.js and Next.js
 
 ### Styling Framework: Boostrap Semantic UI
 
