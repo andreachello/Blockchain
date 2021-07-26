@@ -25,3 +25,5 @@ Each user can create new campaigns (anyone can, then they become the owner of th
 ### Styling Framework: Basic Boostrap
 
 Simple application with minimal UI designed to test the buying and selling capabilities of accounts deployed on a blockchain. A user can create a product and list it for sale, and a seller can buy said product. Buyers cannot be sellers, i.e. an item cannot be bought twice buy the buyer. This has been deployed on the Mumbai Matic TestNet and is available at: https://dapp-ecommerce.herokuapp.com/
+
+**N.B.** This DApp only works if your metamask is connected to the Mumbai Matic Testnet
