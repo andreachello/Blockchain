@@ -1,4 +1,4 @@
-# Blockchain Decentralized Application
+# Blockchain Decentralized Applications
 This is a repo dedicated to exploring the different aspects of the decentralized world, one layer of complexity at a time.
 
 ## 1. Smart Contract Examples
