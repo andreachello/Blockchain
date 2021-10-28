@@ -25,3 +25,8 @@ d. Polymorphism
 ### 3. Arrays
 
 Creating arrays in Solidity is similar to other programming languages with the exception of deleting an element based on a pre-defined index. We will look at a workaround to this problem, as well as introduce the main methods used in arrays and how to initialise them in Solidity.
+
+
+### 4. Enums
+
+are custom data types a user can specify which will return the enumarted indeces of the values of the data type
