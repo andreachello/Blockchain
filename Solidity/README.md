@@ -1,5 +1,4 @@
-<img src="https://docs.soliditylang.org/en/v0.8.9/_images/logo.svg" width="200px" style="  margin-left: auto;
-  margin-right: auto;"/>
+<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--Rxmub8vz--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5jd65usaioipnkv5xs5a.png" width="200px"/>
 
 # Introduction to Solidity Programming
 
