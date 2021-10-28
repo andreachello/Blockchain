@@ -1,4 +1,4 @@
-<img src="https://docs.soliditylang.org/en/v0.8.9/_images/logo.svg"/>
+<img src="https://docs.soliditylang.org/en/v0.8.9/_images/logo.svg" width="200px"/>
 
 # Introduction to Solidity Programming
 
