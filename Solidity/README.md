@@ -4,4 +4,6 @@
 
 ### 1. Strings
 
-### 2. Arrays
+### 2. OOP in Solidity
+
+### 3. Arrays
