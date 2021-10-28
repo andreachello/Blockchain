@@ -4,7 +4,9 @@ contract stringsInSolidity {
     
     string greetings = "Hello";
     
-    // strings have to be saved to memory (like RAM which will be erased at each function call)
+    // strings have to be saved to memory (like RAM which will be erased at each function execution end)
+    // Memory: is a temporary place to store data
+    // Storage: holds data between function calls
     function sayHello() public view returns(string memory) {
         return greetings;
     }
