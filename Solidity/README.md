@@ -36,3 +36,6 @@ are custom data types a user can specify which will return the enumarted indices
 Are custom data types used to represent a record.
 
 ### 6. Mapping
+
+Mapping is a reference type as arrays and structs, as it creates a reference.
+It allows to save data and add a key that we can specify and then retrieve that information later on.
