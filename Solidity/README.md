@@ -34,3 +34,5 @@ are custom data types a user can specify which will return the enumarted indices
 ### 5. Structs
 
 Are custom data types used to represent a record.
+
+### 6. Mapping
