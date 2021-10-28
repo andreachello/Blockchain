@@ -29,4 +29,8 @@ Creating arrays in Solidity is similar to other programming languages with the e
 
 ### 4. Enums
 
-are custom data types a user can specify which will return the enumarted indeces of the values of the data type
+are custom data types a user can specify which will return the enumarted indices of the values of the data type, in which we specify restrictions in order to specify concise variable attributes.
+
+### 5. Structs
+
+Are custom data types used to represent a record.
