@@ -119,7 +119,7 @@ It is a one-way function i.e. it is generally impossible to invert or reverse th
 
 (more on this here: https://medium.com/the-quant-journey/cryptography-and-the-motivation-behind-blockchain-6edded49b4ae)
 
-Solidity provides inbuilt cryptpgraphic functions:
+Solidity provides inbuilt cryptographic functions:
 
 - keccak256 (bytes memory) returns (bytes32) - computes the Keccak-256 hash of th input
 
