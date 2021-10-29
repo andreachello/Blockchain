@@ -141,4 +141,15 @@ Oracle dynamic feeds are the dynamically changing outside data that we feed into
 Here we want to build an Oracle such that the random number generator is less subject to
 miner manipulation, given miners already know information like the block number etc.
 
-### 16. ERC-20 Tokens
+### 16. Simple Subcurrency Tokens
+
+How to Structure a Coin:
+
+- Allows only the creator to create new coins (Issuance)
+
+- Anyone can send coins to each other without a need for registering info
+
+### 17. Points of Failure
+
+
+### 18. Vulnerabilities in Smart Contracts
