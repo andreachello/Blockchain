@@ -101,6 +101,13 @@ on a blockchain for state changes to occur.
 
 ### 13. Function Overloading
 
+is when we can have multiple definitions for the same function in the same scope.
+
+The definition of the function must differ from each other by the types and/or
+number of arguments in the argument list.
+
+We cannot overload function declarations that differ only by return type.
+
 ### 14. Cryptographic Functions
 
 ### 15. Random Number Generators in Solidity (RNG)
