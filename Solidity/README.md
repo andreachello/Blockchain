@@ -79,4 +79,11 @@ b. Pure Functions:
 
 - return calculations
 
-### 11. Fallback Function
+### 11. Events
+
+Smart contracts can log that something has happened on the blockchain by firing events
+
+Applications can be notified when an event is emitted instead of constantly monitoring a contract
+on a blockchain for state changes to occur.
+
+### 12. Fallback Function
