@@ -108,8 +108,27 @@ number of arguments in the argument list.
 
 We cannot overload function declarations that differ only by return type.
 
-### 14. Cryptographic Functions
+### 14. Cryptographic Functions and RNG
 
-### 15. Random Number Generators in Solidity (RNG)
+Cryptographic Hash Functions (CHF)
 
-### 16. Oracle Smart Contracts
+are mathematical algorithms that map data of aribtrary size (called the message)
+to a bit array of a fixed size (the "hash value" or "hash").
+
+It is a one-way function i.e. it is generally impossible to invert or reverse the computation
+
+(more on this here: https://medium.com/the-quant-journey/cryptography-and-the-motivation-behind-blockchain-6edded49b4ae)
+
+Solidity provides inbuilt cryptpgraphic functions:
+
+- keccak256 (bytes memory) returns (bytes32) - computes the Keccak-256 hash of th input
+
+- sha256 (bytes memory) returns (bytes32) - computes the SHA-256 hash of the input
+
+- ripemd160 (bytes memory) returns (bytes20) - computes the RIPEMD-160 hash of the input
+
+Keccak is a leading hashing functions and is a family of cryptpgraphic sponge functions
+designed as an alternative to SHA-256
+
+
+### 15. Oracle Smart Contracts
