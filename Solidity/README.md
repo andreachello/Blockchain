@@ -132,3 +132,11 @@ designed as an alternative to SHA-256
 
 
 ### 15. Oracle Smart Contracts
+
+Blockchain oracles are third-party services that provide smart contracts with external information. 
+They serve as bridges between blockchains and the outside world.
+
+Oracle dynamic feeds are the dynamically changing outside data that we feed into our smart contracts.
+
+Here we want to build an Oracle such that the random number generator is less subject to
+miner manipulation, given miners already know information like the block number etc.
