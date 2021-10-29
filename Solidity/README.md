@@ -86,4 +86,23 @@ Smart contracts can log that something has happened on the blockchain by firing 
 Applications can be notified when an event is emitted instead of constantly monitoring a contract
 on a blockchain for state changes to occur.
 
-### 12. Fallback Function
+### 12. Fallback Functions
+
+ - cannot have a name - anonymous function
+ 
+ - do not take any inputs
+ 
+ - do not return any output
+ 
+ - must be declared as external
+ 
+ We use them when we call functions that do not exist, or send ether to a contract
+ by send, transfer or call.
+
+### 13. Function Overloading
+
+### 14. Cryptographic Functions
+
+### 15. Random Number Generators in Solidity (RNG)
+
+### 16. Oracle Smart Contracts
