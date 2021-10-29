@@ -33,4 +33,22 @@ contract FunctionOverloading {
     function sum(uint a, uint b, uint c) public pure returns(uint) {
         return a+b+c;
     }
+    
+     // Calculations with function Overloading
+    function sum(uint a, uint b) public pure returns(uint){
+        return a+b;
+    }
+    
+    function sum(uint a, uint b, uint c) public pure returns(uint) {
+        return a+b+c;
+    }
+    
+    // call these functions
+    function getSumTwoArgs() public pure returns(uint) {
+        return sum(1,2);
+    }
+    
+    function getSumThreeArgs() public pure returns(uint) {
+        return sum(1,2,3);
+    }
 }
