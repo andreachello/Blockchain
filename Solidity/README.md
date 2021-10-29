@@ -44,7 +44,7 @@ It allows to save data and add a key that we can specify and then retrieve that 
 
 Conversions from lower type uints to higher type uints and viceversa, from smaller bytes to larger bytes and viceversa, from wei to ether, and conversions using time suffixes.
 
-## 8. Blockchain Global Variables
+### 8. Blockchain Global Variables
 
 here are special variables i.e global variables in Solidity and provide 
 information about the blockchain:
@@ -62,3 +62,21 @@ information about the blockchain:
 Function modifiers are used to modify the behaviour of a function.
 
 for example to restrict use or add a prerequisite to a function.
+
+### 10. View vs. Pure
+
+They are Pre-Built-in Modifiers
+
+a. View Functions:
+
+- ensure that the functions will not modify the state
+
+- they return values
+
+b. Pure Functions:
+
+- ensure that they will not read nor modify the state
+
+- return calculations
+
+### 11. Fallback Function
