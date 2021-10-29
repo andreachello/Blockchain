@@ -56,3 +56,9 @@ information about the blockchain:
 - block.timestamp: is the current block timestamp as seconds since unix epoch
 
 - block.number: is a uint representing the current block number
+
+### 9. Function Modifiers
+
+Function modifiers are used to modify the behaviour of a function.
+
+for example to restrict use or add a prerequisite to a function.
