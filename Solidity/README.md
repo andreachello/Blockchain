@@ -39,3 +39,7 @@ Are custom data types used to represent a record.
 
 Mapping is a reference type as arrays and structs, as it creates a reference.
 It allows to save data and add a key that we can specify and then retrieve that information later on.
+
+### 7. Uint/Byte/Ether and Time Conversions
+
+Conversions from lower type uints to higher type uints and viceversa, from smaller bytes to larger bytes and viceversa, from wei to ether, and conversions using time suffixes.
