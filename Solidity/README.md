@@ -43,3 +43,16 @@ It allows to save data and add a key that we can specify and then retrieve that 
 ### 7. Uint/Byte/Ether and Time Conversions
 
 Conversions from lower type uints to higher type uints and viceversa, from smaller bytes to larger bytes and viceversa, from wei to ether, and conversions using time suffixes.
+
+## 8. Blockchain Global Variables
+
+here are special variables i.e global variables in Solidity and provide 
+information about the blockchain:
+
+- msg.sender: sender of the message (current function call)
+
+- msg.value: is a uint representing the number of wei sent with the message
+
+- block.timestamp: is the current block timestamp as seconds since unix epoch
+
+- block.number: is a uint representing the current block number
