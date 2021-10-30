@@ -1,7 +1,7 @@
 # Blockchain Decentralized Applications
 This is a repo dedicated to exploring the different aspects of the decentralized world, one layer of complexity at a time.
 
-## 1. Solidity Guide
+## 1. Solidity
 
 Complete introduction to the Solidity language as well as reference guide for more advanced features
 
