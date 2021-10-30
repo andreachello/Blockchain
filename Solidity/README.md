@@ -7,14 +7,25 @@ This is intended as a comprehensive guide towards learning the Solidity Programm
 ## Table of Contents
 
 - [0. Variable Scope](#0-variable-scope)
-  * [Sub-heading](#sub-heading)
-    + [Sub-sub-heading](#sub-sub-heading)
-- [Heading](#heading-1)
-  * [Sub-heading](#sub-heading-1)
-    + [Sub-sub-heading](#sub-sub-heading-1)
-- [Heading](#heading-2)
-  * [Sub-heading](#sub-heading-2)
-    + [Sub-sub-heading](#sub-sub-heading-2)
+- [1. Strings](#1.-strings)
+- [2. Simple OOP in Solidity](#2.-simple-oop-in-solidity)
+- [3. Arrays](#3.-arrays)
+- [4. Enums](#3.-enums)
+- [5. Variable Scope](#0-variable-scope)
+- [6. Variable Scope](#0-variable-scope)
+- [7. Variable Scope](#0-variable-scope)
+- [8. Variable Scope](#0-variable-scope)
+- [9. Variable Scope](#0-variable-scope)
+- [10. Variable Scope](#0-variable-scope)
+- [11. Variable Scope](#0-variable-scope)
+- [12. Variable Scope](#0-variable-scope)
+- [13. Variable Scope](#0-variable-scope)
+- [14. Variable Scope](#0-variable-scope)
+- [15. Variable Scope](#0-variable-scope)
+- [16. Variable Scope](#0-variable-scope)
+- [17. Variable Scope](#0-variable-scope)
+- [18. Variable Scope](#0-variable-scope)
+- [19. Variable Scope](#0-variable-scope)
 
 ------------
 
