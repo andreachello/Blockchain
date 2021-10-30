@@ -1,1 +1,0 @@
-# Simple Decentralized eCommerce App
