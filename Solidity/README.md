@@ -149,7 +149,8 @@ How to Structure a Coin:
 
 - Anyone can send coins to each other without a need for registering info
 
-### 17. Points of Failure
+### 17. Cybersecurity in Solidity: Points of Failure and Vulnerabilities in Smart Contracts
 
+Transfers are atomic (meaning all or nothing is executed) therefore represent a cybersecurity risk.
 
-### 18. Vulnerabilities in Smart Contracts
+### 18. Withdrawal Pattern
