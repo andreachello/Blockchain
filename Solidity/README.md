@@ -23,9 +23,9 @@ This is intended as a comprehensive guide towards learning the Solidity Programm
 - [14. Cryptographic Functions and RNG](#14-cryptographic-functions-and-rng)
 - [15. Oracle Smart Contracts](#15-oracle-smart-contracts)
 - [16. Simple Subcurrency Tokens](#16-simple-subcurrency-tokens)
-- [17. Cybersecurity in Solidity: Points of Failure and Vulnerabilities in Smart Contracts](#17-cybersecurity-in-solidity:-points-of-failure-and-vulnerabilities-in-smart-contracts)
+- [17. Cybersecurity in Solidity: Points of Failure and Vulnerabilities in Smart Contracts](#17-cybersecurity-in-solidity-points-of-failure-and-vulnerabilities-in-smart-contracts)
 - [18. Withdrawal Pattern](#18-withdrawal-pattern)
-- [19. Restricted Access Pattern](#19-restrictedd-access-pattern)
+- [19. Restricted Access Pattern](#19-restricted-access-pattern)
 
 ------------
 
