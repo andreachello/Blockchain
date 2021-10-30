@@ -6,7 +6,7 @@ This is intended as a comprehensive guide towards learning the Solidity Programm
 
 ## Table of Contents
 
-
+https://github.com/andreachello/Blockchain/blob/main/Solidity/README.md#0-variable-scope%20[0.%20Variable%20Scope]
 
 ------------
 
