@@ -6,9 +6,7 @@ This is intended as a comprehensive guide towards learning the Solidity Programm
 
 ## Table of Contents
 
-[0. Variable Scope](### 0. Variable Scope)
-[1. Strings](### 1. Strings)
-[2. Simple OOP in Solidity](### 2. Simple OOP in Solidity)
+
 
 ------------
 
