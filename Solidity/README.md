@@ -6,7 +6,7 @@ This is intended as a comprehensive guide towards learning the Solidity Programm
 
 ## Table of Contents
 
-- [0. Variable Scope](### 0. Variable Scope)
+- [0. Variable Scope](###0.-Variable-Scope)
   * [Sub-heading](#sub-heading)
     + [Sub-sub-heading](#sub-sub-heading)
 - [Heading](#heading-1)
