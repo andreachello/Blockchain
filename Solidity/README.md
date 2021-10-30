@@ -154,3 +154,9 @@ How to Structure a Coin:
 Transfers are atomic (meaning all or nothing is executed) therefore represent a cybersecurity risk.
 
 ### 18. Withdrawal Pattern
+
+By making our transaction one at a time we greatly reduce the danger to our execution
+
+It is not safe to interact with more than one customer at a time 
+
+### 19. Restricted Access Pattern
