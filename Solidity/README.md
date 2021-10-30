@@ -2,9 +2,17 @@
 
 # Introduction to Solidity Programming
 
-This is intended as a comprehensive guide towards learning the Solidity Programming Language.
+This is intended as a comprehensive guide towards learning the Solidity Programming Language as well as a reference repo to be downloaded in order to look back at previous concepts as a refrehser.
 
 ## Table of Contents
+
+- [0. Variable Scope](### 0. Variable Scope)
+- [1. Strings](### 1. Strings)
+- [2. Simple OOP in Solidity](### 2. Simple OOP in Solidity)
+
+------------
+
+### 0. Variable Scope
 
 ### 1. Strings
 
