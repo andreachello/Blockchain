@@ -160,3 +160,15 @@ By making our transaction one at a time we greatly reduce the danger to our exec
 It is not safe to interact with more than one customer at a time 
 
 ### 19. Restricted Access Pattern
+
+By default, a contract state is read-only unless it is specified as public.
+
+We can customize our modifiers to include the following restrictions:
+
+- 1. onlyBy: only the mentioned caller can call this function (OnlyOwner/Change ownership)
+
+- 2. onlyAfter: called after a certain time period
+
+- 3. costs: call this function only if certain values are provided
+
+### 20. Advanced OOP in Solidity
