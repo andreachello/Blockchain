@@ -10,17 +10,9 @@ This is intended as a comprehensive guide towards learning the Solidity Programm
 
 Strings in Solidity and in Blockchain are computationally expensive, therefore, we first store them in memory, similar to RAM, i.e. a temporary memory block, and then in order to make any computation on the strings we need to convert them into `bytes` first.
 
-### 2. OOP in Solidity
+### 2. Simple OOP in Solidity
 
-Solidity is an Object-Oriented Language that replaces the keywork **Class** with the keyword **Contract**. Here we will learn about the four pillars of OOP applied to Solidity:
-
-a. Encapsulation
-
-b. Abstraction
-
-c. Inheritance
-
-d. Polymorphism
+Solidity is an Object-Oriented Language that replaces the keywork **Class** with the keyword **Contract**. Here we will learn about simple OOP in Solidity.
 
 ### 3. Arrays
 
@@ -172,3 +164,13 @@ We can customize our modifiers to include the following restrictions:
 - 3. costs: call this function only if certain values are provided
 
 ### 20. Advanced OOP in Solidity
+
+Four Pillars:
+
+a. Encapsulation
+
+b. Abstraction
+
+c. Inheritance
+
+d. Polymorphism
