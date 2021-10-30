@@ -16,7 +16,7 @@ This is intended as a comprehensive guide towards learning the Solidity Programm
 - [7. Uint/Byte/Ether and Time Conversions](#7-uintbyteether-and-time-conversions)
 - [8. Blockchain Global Variables](#8-blockchain-global-variables)
 - [9. Function Modifiers](#9-function-modifiers)
-- [10. View vs. Pure](#0-variable-scope)
+- [10. View vs. Pure](#10-view-vs-pure)
 - [11. Events](#11-events)
 - [12. Fallback Functions](#12-fallback-functions)
 - [13. Function Overloading](#13-function-overloading)
