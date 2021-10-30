@@ -6,7 +6,15 @@ This is intended as a comprehensive guide towards learning the Solidity Programm
 
 ## Table of Contents
 
-https://github.com/andreachello/Blockchain/blob/main/Solidity/README.md#0-variable-scope%20[0.%20Variable%20Scope]
+- [0. Variable Scope](### 0. Variable Scope)
+  * [Sub-heading](#sub-heading)
+    + [Sub-sub-heading](#sub-sub-heading)
+- [Heading](#heading-1)
+  * [Sub-heading](#sub-heading-1)
+    + [Sub-sub-heading](#sub-sub-heading-1)
+- [Heading](#heading-2)
+  * [Sub-heading](#sub-heading-2)
+    + [Sub-sub-heading](#sub-sub-heading-2)
 
 ------------
 
