@@ -25,6 +25,8 @@ Install the latest version of Node.js
 - Install necessarily Node.js packages
 
       npm install
+      
+- Run Instance of Ganache - Quick Setup 
 
 - Deploy smart contracts to the Ethereum blockchain
 
@@ -36,4 +38,4 @@ Install the latest version of Node.js
       
 - Run the scripts to issue tokens
 
-      truffle exec scripts/issue-tokens.js
+      truffle exec ./src/scripts/issue-tokens.js
