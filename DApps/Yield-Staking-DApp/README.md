@@ -1,3 +1,3 @@
 # Yield Staking DApp
 
-![Screenshot](/public/Yield_Staking_Dapp_Picture.png)
+![Screenshot](./public/Yield_Staking_Dapp_Picture.png)
