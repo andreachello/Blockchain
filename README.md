@@ -14,3 +14,4 @@ Projects I have created around Decentralized Applications
 - Decentralized Kickstarter with React.js and Next.js
 - Simple Decentralized eCommerce Application with React.js, web3.js, and Truffle Framework
 - NFT Marketplace
+- Yield Staking DeFi
