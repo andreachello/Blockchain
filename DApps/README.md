@@ -24,3 +24,7 @@ Each user can create new campaigns (anyone can, then they become the owner of th
 Simple application with minimal UI designed to test the buying and selling capabilities of accounts deployed on a blockchain. A user can create a product and list it for sale, and a seller can buy said product. Buyers cannot be sellers, i.e. an item cannot be bought twice buy the buyer. This has been deployed on the Mumbai Matic TestNet and is available at: https://dapp-ecommerce.herokuapp.com/
 
 **N.B.** This DApp only works if your metamask is connected to the Mumbai Matic Testnet
+
+## 5. Yield Staking DApp
+
+Simple yield farming DApp where a user can stake and unstake their mock Tether (USDT) and the deployer of the DApp is able to issue the Reward tokens from the command line in Truffle. This is an oversimplified version of real-world staking, and is used to demonstrate the core mechanics of an escrow account that receives and sends tokens.
