@@ -28,3 +28,9 @@ Simple application with minimal UI designed to test the buying and selling capab
 ## 5. Yield Staking DApp
 
 Simple yield farming DApp where a user can stake and unstake their mock Tether (USDT) and the deployer of the DApp is able to issue the Reward tokens from the command line in Truffle. This is an oversimplified version of real-world staking, and is used to demonstrate the core mechanics of an escrow account that receives and sends tokens.
+
+## 6. Forward Rate Agreement using MakerDAO
+
+Forward rate agreements (FRA) are over-the-counter contracts between parties that determine the rate of interest to be paid on an agreed-upon date in the future. In other words, an FRA is an agreement to exchange an interest rate commitment on a notional amount.
+
+In the decentralized space we will use MakerDAO's DAI as the notional amount's currency, and use the MakerDAO stability rate rather than the traditional LIBOR or Fed Funds rate reference rates.
