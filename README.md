@@ -15,3 +15,4 @@ Projects I have created around Decentralized Applications
 - Simple Decentralized eCommerce Application with React.js, web3.js, and Truffle Framework
 - NFT Marketplace
 - Yield Staking DeFi
+- Forward Rate Agreement(FRA) using MakerDAO 
