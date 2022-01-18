@@ -10,9 +10,17 @@ Complete introduction to the Solidity language as well as reference guide for mo
 Projects I have created around Decentralized Applications
 
 - Inbox Simple Messaging System on Rinkeby Testnet
+
 - Simple Lottery DAPP with React Front End
+
 - Decentralized Kickstarter with React.js and Next.js
+
 - Simple Decentralized eCommerce Application with React.js, web3.js, and Truffle Framework
+
 - NFT Marketplace
+
+### DeFi
+
 - Yield Staking DeFi
+
 - Forward Rate Agreement(FRA) using MakerDAO 
