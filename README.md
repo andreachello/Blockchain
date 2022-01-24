@@ -5,7 +5,7 @@ This is a repo dedicated to exploring the different aspects of the decentralized
 
 Complete introduction to the Solidity language as well as reference guide for more advanced features
 
-## 2. DApps
+## 2. Projects and DApps
 
 Projects I have created around Decentralized Applications
 
