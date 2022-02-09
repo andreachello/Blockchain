@@ -48,8 +48,15 @@ contract DelegateCall {
 
     // delegate the call 
     function setVars(address _test, uint _num) external payable {
+        // Standard way
         (bool success, bytes memory data) = _test.delegatecall(
             abi.encodeWithSignature("setVars(uint256)", _num));
+        
+        // Using Selectors
+        //(bool success, ) = _test.delegatecall(
+        //        abi.encodeWithSelector(TestDelegateCall.setVars.selector, _num)           
+        //    );
+        
         require(success, "failed");
     }
 
