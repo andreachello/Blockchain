@@ -5,6 +5,17 @@ Pattern 1. Eternal Storage
 
 Keep storage but lose address, we are separating the logic from the storage
 
+Pros: 
+
+- Easy to understand
+- Works with and without libraries
+- Eliminates the Storage Migration
+
+Cons:
+
+- The address of contracts changes
+- It is a difficulty access pattern as the eternal storage contract is kept very minimal
+
 */
 
 // Storage smart contract that is purely storing the values
