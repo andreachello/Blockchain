@@ -17,14 +17,16 @@ How to Deploy:
 
 - 2. Deploy the Dispatcher at the Example Contract Address
 
-- 3. Make an update to the Example Logic Smart Contract
+- 3. Deploy the Example Logic Smart Contract again at the Dispatcher's address (Proxy)
 
-- 4. Deploy V2 of the Example Smart Contract
+- 4. Make an update to the Example Logic Smart Contract
 
-- 5. call the replace function in the Dispatcher Contract with input being 
+- 5. Deploy V2 of the Example Smart Contract
+
+- 6. call the replace function in the Dispatcher Contract with input being 
      the new contract address for V2
 
-- 6. The old (V1) contract will be upgraded and you can test out the new
+- 7. The old (V1) contract will be upgraded and you can test out the new
      functionality
 
 */
