@@ -97,7 +97,7 @@ contract HashFunc {
     }
 
     function noPacked(string memory text0, string memory text1) external pure returns(bytes32) {
-        // passing two dynamic data types separated by a static data type
+        // passing two dynamic data types using an abi encode
         return keccak256(abi.encode(text0, text1));
     }
 }
