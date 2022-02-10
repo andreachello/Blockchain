@@ -5,6 +5,16 @@ This is a repo dedicated to exploring the different aspects of the decentralized
 
 Complete introduction to the Solidity language as well as reference guide for more advanced features
 
+### 1.1 Proxy Contracts
+
+- Eternal Storage Pattern
+
+- Nick Johnson First Proxy Contract Pattern
+
+- EIP-897 Delegate Proxy Pattern
+
+- EIP-1822 Universal Upgradeable Proxy Standard (UUPS) Pattern
+
 ## 2. Projects and DApps
 
 Projects I have created around Decentralized Applications
