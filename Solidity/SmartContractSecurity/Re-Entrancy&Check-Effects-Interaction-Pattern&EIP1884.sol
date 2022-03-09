@@ -31,6 +31,24 @@ contract UnsafeContract {
     }
 }
 
+// Generic Attacker Contract Code
+contract Attacker {
+    function start() public {
+        // deposit funds to the unsafe contract
+        // call to withdraw();
+    }
+
+    // Calls with no data + value: Fallback without any calldata
+    receive() external payable {
+        // new call to withdraw
+    }
+    
+    // when no other function matches
+    fallback() external payable {
+      // if there are no methods attached to the contract
+      // payable to receive value
+}
+
 // Checks, Effects, Interactions Pattern to ALWAYS use 
 /*
 - Checks - are the require statements
