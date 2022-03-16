@@ -1,0 +1,18 @@
+FROM node:14-alpine3.14
+
+ARG NPM_PRIVATE_REGISTRY_URL
+ARG NPM_PRIVATE_REGISTRY_TOKEN
+
+WORKDIR /usr/src/app
+
+COPY package.json package-lock.json /usr/src/app/
+COPY integration /usr/src/app/integration/
+RUN npm install
+
+COPY . .
+RUN npm run build
+
+EXPOSE 3000
+ENV PORT 3000
+
+CMD [ "npm", "run", "start:dev" ]

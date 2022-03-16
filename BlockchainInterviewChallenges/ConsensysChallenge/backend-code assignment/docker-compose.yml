@@ -1,0 +1,17 @@
+version: '3.4'
+services:
+  jupiter_db:
+    image: postgres
+    environment:
+      - POSTGRES_DB=jupiter
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    restart: always
+    volumes:
+      - "./data/postgres:/var/lib/postgresql/data"
+    ports:
+      - "5432:5432"
+    command: postgres -c listen_addresses='*'
+volumes:
+  postgres:
+  pgadmin:
