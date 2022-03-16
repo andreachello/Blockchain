@@ -1,0 +1,155 @@
+<testsuites name="jest tests" tests="42" failures="12" time="4.992">
+  <testsuite name="/src/App.test.js" errors="0" failures="0" skipped="0" timestamp="2022-02-12T14:18:17" time="2.974" tests="1">
+    <testcase classname="&lt;App&gt;" name="render crucial components" time="0.106">
+    </testcase>
+  </testsuite>
+  <testsuite name="/src/AddressBook/ContactDetails/ContactDetails.test.jsx" errors="0" failures="0" skipped="0" timestamp="2022-02-12T14:18:20" time="0.274" tests="5">
+    <testcase classname="&lt;ContactDetails&gt;" name="render &lt;Placeholder&gt; if there is no contact fetched" time="0.004">
+    </testcase>
+    <testcase classname="&lt;ContactDetails&gt;" name="render &lt;FetchFailure&gt; if fetching failed" time="0.006">
+    </testcase>
+    <testcase classname="&lt;ContactDetails&gt;" name="render &lt;FetchFailure&gt; if fetching failed and there is previously fetched Contact available" time="0.015">
+    </testcase>
+    <testcase classname="&lt;ContactDetails&gt;" name="render name of fetched Contact Details" time="0.018">
+    </testcase>
+    <testcase classname="&lt;ContactDetails&gt;" name="render 1st address line of fetched Contact Details" time="0.023">
+    </testcase>
+  </testsuite>
+  <testsuite name="/src/integrationTests/showContactDetails.test.js" errors="0" failures="9" skipped="0" timestamp="2022-02-12T14:18:17" time="3.381" tests="12">
+    <testcase classname="show Contact Details › first fetch" name="ask HTTP API for Contact Details if Matching Contact was selected" time="0.123">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalled()
+
+Expected mock function to have been called.
+    at Object.&lt;anonymous&gt; (/Users/andreachello/Downloads/new/src/integrationTests/showContactDetails.test.js:49:34)</failure>
+    </testcase>
+    <testcase classname="show Contact Details › first fetch" name="show placeholder if Matching Contact was not selected yet" time="0.011">
+    </testcase>
+    <testcase classname="show Contact Details › first fetch" name="show placeholder if Contact Details for selected Matching Contact are not fetched yet" time="0.014">
+    </testcase>
+    <testcase classname="show Contact Details › first fetch" name="don&apos;t show placeholder when Contact Details fetched" time="0.091">
+      <failure>Error: Expected &quot;Placeholder&quot; not to exist. Instead found 1 nodes.
+Found Nodes: &lt;div class=&quot;ContactDetails_placeholder&quot;&gt;Contact Details will appear here…&lt;/div&gt;
+    at Object.&lt;anonymous&gt; (/Users/andreachello/Downloads/new/src/integrationTests/showContactDetails.test.js:96:55)</failure>
+    </testcase>
+    <testcase classname="show Contact Details › first fetch" name="show structure for fetched Contact Details" time="0.013">
+      <failure>Error: Expected &quot;[empty set]&quot; to exist.
+    at Object.&lt;anonymous&gt; (/Users/andreachello/Downloads/new/src/integrationTests/showContactDetails.test.js:111:44)</failure>
+    </testcase>
+    <testcase classname="show Contact Details › second fetch" name="don&apos;t show placeholder when User search for new Matching Contacts" time="0.018">
+      <failure>Error: Expected &quot;Placeholder&quot; not to exist. Instead found 1 nodes.
+Found Nodes: &lt;div class=&quot;ContactDetails_placeholder&quot;&gt;Contact Details will appear here…&lt;/div&gt;
+    at Object.&lt;anonymous&gt; (/Users/andreachello/Downloads/new/src/integrationTests/showContactDetails.test.js:140:55)</failure>
+    </testcase>
+    <testcase classname="show Contact Details › second fetch" name="show previously fetched Contact Details when User search for new Matching Contacts" time="0.014">
+      <failure>Error: toHaveText must be called on a single node, not an empty node.
+    at Object.&lt;anonymous&gt; (/Users/andreachello/Downloads/new/src/integrationTests/showContactDetails.test.js:164:7)</failure>
+    </testcase>
+    <testcase classname="show Contact Details › second fetch" name="do not fetch Contact Details again, if new selected are same as those currently shown" time="0.011">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledTimes(1)
+
+Expected mock function to have been called one time, but it was called zero times.
+    at Object.&lt;anonymous&gt; (/Users/andreachello/Downloads/new/src/integrationTests/showContactDetails.test.js:177:34)</failure>
+    </testcase>
+    <testcase classname="show Contact Details › second fetch" name="don&apos;t show previous Contact Details if next fetch just started" time="0.018">
+    </testcase>
+    <testcase classname="show Contact Details › failed fetch" name="show info about failed fetch of Contact Details" time="0.019">
+      <failure>Error: Expected &quot;[empty set]&quot; to exist.
+    at Object.&lt;anonymous&gt; (/Users/andreachello/Downloads/new/src/integrationTests/showContactDetails.test.js:231:52)</failure>
+    </testcase>
+    <testcase classname="show Contact Details › caching" name="ask HTTP API for Contact Details for the 1st time" time="0.013">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledTimes(1)
+
+Expected mock function to have been called one time, but it was called zero times.
+    at Object.&lt;anonymous&gt; (/Users/andreachello/Downloads/new/src/integrationTests/showContactDetails.test.js:252:34)</failure>
+    </testcase>
+    <testcase classname="show Contact Details › caching" name="don&apos;t ask HTTP API for Contact Details for the 2nd time" time="0.011">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledTimes(1)
+
+Expected mock function to have been called one time, but it was called zero times.
+    at Object.&lt;anonymous&gt; (/Users/andreachello/Downloads/new/src/integrationTests/showContactDetails.test.js:280:34)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="/src/AddressBook/SearchContacts/MatchingContacts.test.jsx" errors="0" failures="0" skipped="0" timestamp="2022-02-12T14:18:20" time="0.193" tests="4">
+    <testcase classname="&lt;MatchingContacts&gt;" name="render nothing if there is no data" time="0.002">
+    </testcase>
+    <testcase classname="&lt;MatchingContacts&gt;" name="render Matching Contacts" time="0.016">
+    </testcase>
+    <testcase classname="&lt;MatchingContacts&gt;" name="distinguish highlighted Matching Contact" time="0.015">
+    </testcase>
+    <testcase classname="&lt;MatchingContacts&gt;" name="distinguish nothing, if no Matching Contact is highlighted" time="0.023">
+    </testcase>
+  </testsuite>
+  <testsuite name="/src/AddressBook/SearchContacts/reducer.test.js" errors="0" failures="0" skipped="0" timestamp="2022-02-12T14:18:21" time="0.182" tests="3">
+    <testcase classname="Search reducer" name="Search Phrase" time="0.001">
+    </testcase>
+    <testcase classname="Search reducer" name="Matching Contacts" time="0">
+    </testcase>
+    <testcase classname="Search reducer" name="search failure" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="/src/AddressBook/SearchContacts/SearchContacts.test.jsx" errors="0" failures="0" skipped="0" timestamp="2022-02-12T14:18:21" time="0.185" tests="3">
+    <testcase classname="&lt;SearchContacts&gt;" name="render &lt;Downshift&gt; external autocomplete component by default" time="0.034">
+    </testcase>
+    <testcase classname="&lt;SearchContacts&gt;" name="render &lt;Downshift&gt; external autocomplete component even if search failed" time="0.003">
+    </testcase>
+    <testcase classname="&lt;SearchContacts&gt;" name="render &lt;SearchFailure&gt; if search failed" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="/src/AddressBook/ContactDetails/reducer.test.js" errors="0" failures="0" skipped="0" timestamp="2022-02-12T14:18:21" time="0.123" tests="2">
+    <testcase classname="Contact Details reducer" name="fetched Contact Details" time="0.001">
+    </testcase>
+    <testcase classname="Contact Details reducer" name="fetch failure" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="/src/AddressBook/SearchContacts/PhraseInput.test.jsx" errors="0" failures="0" skipped="0" timestamp="2022-02-12T14:18:21" time="0.107" tests="2">
+    <testcase classname="&lt;PhraseInput&gt;" name="render provided phrase" time="0.003">
+    </testcase>
+    <testcase classname="&lt;PhraseInput&gt;" name="pass typed phrase to callback" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="/src/integrationTests/searchForMatchingContacts.test.js" errors="0" failures="3" skipped="0" timestamp="2022-02-12T14:18:17" time="3.877" tests="10">
+    <testcase classname="search for matching Contacts › search Contact by search phrase" name="render text typed into search phrase input" time="0.081">
+    </testcase>
+    <testcase classname="search for matching Contacts › search Contact by search phrase" name="ask HTTP API for Matching Contacts after delay of minimal allowed interval" time="0.034">
+      <failure>Error: expect(jest.fn()).not.toHaveBeenCalled()
+
+Expected mock function not to be called but it was called with:
+  [{&quot;namePart&quot;: &quot;any&quot;}]
+    at Object.&lt;anonymous&gt; (/Users/andreachello/Downloads/new/src/integrationTests/searchForMatchingContacts.test.js:36:53)
+    at Object.asyncFn (/Users/andreachello/Downloads/new/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/andreachello/Downloads/new/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/andreachello/Downloads/new/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/andreachello/Downloads/new/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)</failure>
+    </testcase>
+    <testcase classname="search for matching Contacts › search Contact by search phrase" name="ask HTTP API for Matching Contacts again after another minimal delay" time="0.016">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledTimes(1)
+
+Expected mock function to have been called one time, but it was called two times.
+    at Object.&lt;anonymous&gt; (/Users/andreachello/Downloads/new/src/integrationTests/searchForMatchingContacts.test.js:53:49)
+    at Object.asyncFn (/Users/andreachello/Downloads/new/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/andreachello/Downloads/new/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/andreachello/Downloads/new/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/andreachello/Downloads/new/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)</failure>
+    </testcase>
+    <testcase classname="search for matching Contacts › Matching Contacts" name="don&apos;t show Matching Contacts if nothing was searched" time="0.018">
+    </testcase>
+    <testcase classname="search for matching Contacts › Matching Contacts" name="show found Matching Contacts" time="0.011">
+    </testcase>
+    <testcase classname="search for matching Contacts › failure while searching for Matching Contacts" name="show info about failed search for Matching Contacts" time="0.005">
+      <failure>Error: Expected &quot;[empty set]&quot; to exist.
+    at Object.&lt;anonymous&gt; (/Users/andreachello/Downloads/new/src/integrationTests/searchForMatchingContacts.test.js:116:36)</failure>
+    </testcase>
+    <testcase classname="search for matching Contacts › failure while searching for Matching Contacts" name="don&apos;t show info about failed search if next Matching Contacts search started" time="0.009">
+    </testcase>
+    <testcase classname="search for matching Contacts › select Matching Contact" name="fill search input with name of selected Matching Contact" time="0.018">
+    </testcase>
+    <testcase classname="search for matching Contacts › select Matching Contact" name="don&apos;t show previous Matching Contacts on new just started search" time="0.015">
+    </testcase>
+    <testcase classname="search for matching Contacts › select Matching Contact" name="don&apos;t crash if no Matching Contact is selected for the first time" time="0.007">
+    </testcase>
+  </testsuite>
+</testsuites>

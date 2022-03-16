@@ -1,0 +1,33 @@
+.ContactDetails {
+    width: 100%;
+    background-color: #e8e8e8;
+}
+
+.ContactDetails_placeholder {
+    padding: .5rem;
+}
+
+.ContactDetails_failure {
+    padding: .5rem;
+    background-color: #e10042;
+    color: white;
+}
+
+.ContactDetails_data {
+    padding: .5rem;
+}
+
+.ContactDetails_data_item:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+
+.ContactDetails_data_item span {
+    display: block;
+}
+
+.ContactDetails_data_item span:first-child {
+    margin-bottom: .5rem;
+    border-bottom: 1px solid #919191;
+    padding-bottom: .5rem;
+    color: #919191;
+}

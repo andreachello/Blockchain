@@ -1,0 +1,42 @@
+{
+  "name": "react-address-book",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "cross-env CI=true react-scripts test --env=jsdom --testResultsProcessor='jest-junit' --verbose",
+    "test:watch": "react-scripts test --env=jsdom --verbose"
+  },
+  "jest-junit": {
+    "output": "./test-results.xml",
+    "suiteName": "jest tests",
+    "suiteNameTemplate": "{filepath}",
+    "classNameTemplate": "{classname}",
+    "titleTemplate": "{title}",
+    "ancestorSeparator": " › "
+  },
+  "dependencies": {
+    "classnames": "2.2.6",
+    "date-fns": "1.29.0",
+    "debounce-promise": "3.1.0",
+    "downshift": "2.0.19",
+    "faker": "4.1.0",
+    "normalize.css": "8.0.0",
+    "react": "16.4.1",
+    "react-dom": "16.4.1",
+    "react-redux": "5.0.7",
+    "react-scripts": "1.1.4",
+    "redux": "4.0.0",
+    "redux-devtools-extension": "2.13.5",
+    "redux-thunk": "2.3.0"
+  },
+  "devDependencies": {
+    "cross-env": "5.2.0",
+    "enzyme": "3.3.0",
+    "enzyme-adapter-react-16": "1.1.1",
+    "jest-enzyme": "6.0.2",
+    "jest-junit": "4.0.0",
+    "redux-mock-store": "1.5.3",
+    "shortid": "2.2.12"
+  }
+}

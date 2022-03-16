@@ -1,0 +1,18 @@
+.MatchingContacts {
+    position: absolute;
+
+    margin: 0;
+    border: 1px solid #919191;
+    padding: 0;
+
+    background-color: white;
+
+    list-style-type: none;
+}
+
+.MatchingContacts_item {
+    padding: .5rem;
+}
+.MatchingContacts_item_highlighted {
+    background-color: #e8e8e8;
+}

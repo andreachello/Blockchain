@@ -1,0 +1,7 @@
+.PhraseInput {
+    box-sizing: border-box;
+    width: 100%;
+
+    border: 1px solid #919191;
+    padding: .5rem;
+}
