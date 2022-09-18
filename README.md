@@ -27,8 +27,12 @@ Projects I have created around Decentralized Applications
 
 - NFT Marketplace
 
-### DeFi
+### 3. DeFi
 
 - Yield Staking DeFi
 
 - Forward Rate Agreement(FRA) using MakerDAO 
+
+### 4. Proof of Work Blockchain
+
+A complete PoW Blockchain done in Node.js with block explorer in React that uses PubSub to broadcast the details of the blocks and transactions to all peer nodes
