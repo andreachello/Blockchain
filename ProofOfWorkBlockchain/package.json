@@ -1,0 +1,17 @@
+{
+  "name": "full-stack-blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd api && node src/index.js",
+    "dev": "concurrently \"cd api && npm run dev\" \"cd app && npm run start\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.4.0"
+  }
+}
