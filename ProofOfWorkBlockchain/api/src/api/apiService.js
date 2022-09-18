@@ -141,7 +141,7 @@ const getKnownAddresses = (done) => {
     done(undefined, Object.keys(addressMap))
 }
 
-const getBlock = (id, done) => {
+const getChainLength = (id, done) => {
 
     const { length } = blockchain.chain
 
@@ -161,8 +161,8 @@ const getBlock = (id, done) => {
     done(undefined, blocksReversed.slice(startIndex, endIndex))
 }
 
-const getChainLength = (done) => {
-    done(undefined, blockchain.chain.length)
+const getBlock = (done) => {
+    done(undefined, )
 }
 
 module.exports = {

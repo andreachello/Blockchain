@@ -1,4 +1,3 @@
-const { application } = require("express")
 const express = require("express")
 const router = express.Router()
 const apiController = require("./apiController")
@@ -21,13 +20,10 @@ router.get("/mine-transactions", apiController.mineTransactions)
 // get wallet information
 router.get("/wallet-info", apiController.getWalletInfo)
 
-// get known wallet addresses
-router.get("/known-addresses", apiController.getKnownAddresses)
-
-// pagination get length
+// get length
 router.get("/blocks/length", apiController.getChainLength)
 
-// get block id
+// get block
 router.get("/blocks/:id", apiController.getBlock)
 
 module.exports = router

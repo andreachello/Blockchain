@@ -6,6 +6,7 @@ const Blockchain = require("./blockchain")
 const cors = require("cors");
 
 const apiRouter = require("./api/apiRouter")
+const clientRouter = require("./client/clientRouter")
 const TransactionPool = require("./wallet/transaction-pool");
 const { seedBackend } = require("./api/apiService");
 

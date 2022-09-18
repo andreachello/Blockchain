@@ -71,16 +71,6 @@ const getWalletInfo = (req, res) => {
     })
 }
 
-const getKnownAddresses = (req, res) => {
-    apiService.getKnownAddresses((err, result) => {
-        if (err) {
-            res.status(500).send(err)
-        } else {
-            res.json(result)
-        }
-    })
-}
-
 const getChainLength = (req, res) => {
     apiService.getChainLength((err, result) => {
         if (err) {
@@ -93,7 +83,6 @@ const getChainLength = (req, res) => {
 
 const getBlock = (req, res) => {
     const { id } = req.params
-
     apiService.getBlock(id, (err, result) => {
         if (err) {
             res.status(500).send(err)
@@ -110,7 +99,6 @@ module.exports = {
     getTransactionPoolMap,
     mineTransactions,
     getWalletInfo,
-    getKnownAddresses,
     getChainLength,
     getBlock
 }
