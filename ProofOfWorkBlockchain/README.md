@@ -1,5 +1,7 @@
 # Proof of Work Blockchain Architecture
 
+Live Block Explorer: https://pow-blockchain.herokuapp.com/
+
 ## 1. Block
 
 ### 1.1 Constructor
