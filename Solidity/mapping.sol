@@ -12,7 +12,7 @@ get the size
 
 contract Mapping {
     
-    // InputL Key-Value
+    // Input: Key-Value
     // we create a library that has keys and values (addresses:key, etc)
     
     // key => value visibility variable
