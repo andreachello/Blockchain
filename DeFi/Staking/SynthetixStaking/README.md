@@ -1,5 +1,7 @@
 # Synthetix Staking Reward
 
+## Code Walkthrough
+
 # 1. IERC20 Interface
 
 In order to have a functioning staking contract we will need the IERC20 interface for:
